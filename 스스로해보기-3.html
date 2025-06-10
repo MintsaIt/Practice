@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표만들기</title>
+</head>
+<body>
+<h3>표만들기</h3>
+<hr>
+<script>
+    function square(a){
+        return a*a;
+    }
+</script>
+    <table border="1">
+        <tr>
+        <th>n</th>
+        <script>
+            for (let i = 0; i <= 9; i++) {
+                document.write("<td>" + i + "</td>");
+            }
+        </script>
+        </tr>
+
+        <tr>
+        <th>n<sup>2</sup></th>
+        <script>
+            function square(a) {
+                return a * a;
+            }
+            
+            for (let i = 0; i <= 9; i++) {
+                document.write("<td>" + square(i) + "</td>");
+            }
+        </script>
+        </tr>
+        
+    </table>
+</body>
+</html>
