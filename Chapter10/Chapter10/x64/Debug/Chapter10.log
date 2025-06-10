@@ -1,0 +1,8 @@
+﻿  기본 10-3.cpp
+  응용 10-5.cpp
+D:\CookC\Chapter10\기본 10-3.cpp(24,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
+기본 10-2.obj : error LNK2005: main이(가) 기본 10-1.obj에 이미 정의되어 있습니다.
+기본 10-3.obj : error LNK2005: "int __cdecl coffee_machine(int)" (?coffee_machine@@YAHH@Z)이(가) 기본 10-2.obj에 이미 정의되어 있습니다.
+기본 10-3.obj : error LNK2005: main이(가) 기본 10-1.obj에 이미 정의되어 있습니다.
+D:\CookC\Chapter10\x64\Debug\Chapter10.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
